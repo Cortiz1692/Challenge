@@ -1,0 +1,27 @@
+version: '3.9'
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongodb_container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+      - ./init.js:/docker-entrypoint-initdb.d/init.js  # Asegúrate de que el archivo se copia correctamente
+
+  poi-service:
+    image: poi-service:latest
+    container_name: poi_service_container
+    build:
+      context: ./poi-service
+      dockerfile: Dockerfile
+    environment:
+      SPRING_DATA_MONGODB_URI: mongodb://mongo:27017/portalInmobiliario
+      SPRING_DATA_MONGODB_DATABASE: portalInmobiliario
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongo
+
+volumes:
+  mongo_data:

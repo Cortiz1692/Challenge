@@ -1,0 +1,18 @@
+.inspeccion-group {
+    border: 1px solid #007bff; /* Color del borde */
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f8f9fa; /* Color de fondo claro */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  .inspeccion-title {
+    color: #007bff; /* Color del título */
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold; /* Negrita para las etiquetas */
+  }
+  

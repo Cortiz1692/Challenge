@@ -1,0 +1,545 @@
+[{
+  "_id": {
+    "$oid": "674a93ef52324617c16f4ba9"
+  },
+  "name": "Escuela A",
+  "category": "Educación",
+  "address": "Calle Tercera 789",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3923,
+      -34.6123
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93ef52324617c16f4baa"
+  },
+  "name": "Hospital B",
+  "category": "Salud",
+  "address": "Calle Cuarta 321",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3845,
+      -34.617
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674abf94a32a55e08106cb84"
+  },
+  "name": "Estación de Tren C",
+  "category": "Transporte",
+  "address": "Avenida Primera 123",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3776,
+      -34.6153
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674abfa1a32a55e08106cb86"
+  },
+  "name": "Supermercado D",
+  "category": "Comercios",
+  "address": "Avenida Segunda 456",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.389,
+      -34.6132
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674abfb0a32a55e08106cb88"
+  },
+  "name": "Parque E",
+  "category": "Áreas Verdes",
+  "address": "Calle Quinta 987",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.395,
+      -34.61
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674abff2a32a55e08106cb8a"
+  },
+  "name": "Biblioteca Central",
+  "category": "Educación",
+  "address": "Avenida Principal 101",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3911,
+      -34.611
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac009a32a55e08106cb8d"
+  },
+  "name": "Escuela Secundaria Norte",
+  "category": "Educación",
+  "address": "Calle Norte 202",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3805,
+      -34.6155
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac013a32a55e08106cb8f"
+  },
+  "name": "Clínica Médica Sur",
+  "category": "Salud",
+  "address": "Avenida Sur 303",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3967,
+      -34.6088
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac01ea32a55e08106cb91"
+  },
+  "name": "Farmacia Central",
+  "category": "Salud",
+  "address": "Calle Este 404",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3821,
+      -34.6143
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac028a32a55e08106cb93"
+  },
+  "name": "Terminal de Autobuses",
+  "category": "Transporte",
+  "address": "Avenida Terminal 505",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3932,
+      -34.6095
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac037a32a55e08106cb95"
+  },
+  "name": "Parada de Metro",
+  "category": "Transporte",
+  "address": "Calle Metro 606",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3879,
+      -34.6161
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac044a32a55e08106cb97"
+  },
+  "name": "Supermercado Sur",
+  "category": "Comercios",
+  "address": "Avenida Mercado 707",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3944,
+      -34.6103
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac04fa32a55e08106cb99"
+  },
+  "name": "Centro Comercial Oeste",
+  "category": "Comercios",
+  "address": "Calle Oeste 808",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3786,
+      -34.6127
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac059a32a55e08106cb9b"
+  },
+  "name": "Plaza Verde",
+  "category": "Áreas Verdes",
+  "address": "Avenida Parque 909",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3895,
+      -34.6112
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac063a32a55e08106cb9d"
+  },
+  "name": "Jardín Botánico",
+  "category": "Áreas Verdes",
+  "address": "Calle Jardín 1001",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3858,
+      -34.6178
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac072a32a55e08106cb9f"
+  },
+  "name": "Academia de Idiomas",
+  "category": "Educación",
+  "address": "Calle Idiomas 1102",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.395,
+      -34.6098
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac07fa32a55e08106cba1"
+  },
+  "name": "Hospital Infantil",
+  "category": "Salud",
+  "address": "Avenida Niños 1203",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3827,
+      -34.6165
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac088a32a55e08106cba3"
+  },
+  "name": "Parada de Taxis",
+  "category": "Transporte",
+  "address": "Calle Taxis 1304",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3903,
+      -34.6089
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac09da32a55e08106cba5"
+  },
+  "name": "Tienda de Ropa Norte",
+  "category": "Comercios",
+  "address": "Avenida Ropa 1405",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3789,
+      -34.6138
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac0a8a32a55e08106cba7"
+  },
+  "name": "Parque Natural Este",
+  "category": "Áreas Verdes",
+  "address": "Calle Natural 1506",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3949,
+      -34.6107
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac0bca32a55e08106cba9"
+  },
+  "name": "Universidad Metropolitana",
+  "category": "Educación",
+  "address": "Avenida Universitaria 1607",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3862,
+      -34.6162
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac0c7a32a55e08106cbab"
+  },
+  "name": "Centro de Salud Este",
+  "category": "Salud",
+  "address": "Calle Salud 1708",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3838,
+      -34.6092
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac0d0a32a55e08106cbad"
+  },
+  "name": "Estación de Tren Norte",
+  "category": "Transporte",
+  "address": "Avenida Tren 1809",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3916,
+      -34.6173
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac0dba32a55e08106cbaf"
+  },
+  "name": "Mercado Central",
+  "category": "Comercios",
+  "address": "Calle Mercado 1910",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.387,
+      -34.6129
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ac0e6a32a55e08106cbb1"
+  },
+  "name": "Parque Infantil Sur",
+  "category": "Áreas Verdes",
+  "address": "Avenida Niños 2011",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3925,
+      -34.609
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674ae7c6f9cc243ade7aec34"
+  },
+  "name": "Estación de Tren C",
+  "category": "Transporte",
+  "address": "Avenida Primera 123",
+  "location": {
+    "x": -58.3776,
+    "y": -34.6153
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674b0fa115560d44dabf0cfe"
+  },
+  "name": "Biblioteca Nacional",
+  "category": "Educación",
+  "address": "Avenida Libertador 1234",
+  "location": {
+    "x": -58.3925,
+    "y": -34.598
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674b9588456e024f675f387b"
+  },
+  "name": "Centro de Saluddable ",
+  "category": "Salud",
+  "address": "Calle Salud 2212",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -59.3838,
+      -33.6092
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674b972d65b6242fc46f20d3"
+  },
+  "name": "Centro Hospitalario ",
+  "category": "Salud",
+  "address": "Calle las Maras 1908",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -56.3838,
+      -31.6092
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674baf688a2bc71f9de2ab68"
+  },
+  "name": "Parque Central del Luna",
+  "category": "Recreación",
+  "address": "Avenida Central del Palma 789",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -55.39,
+      -32.62
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674c18b97e239c618d2c36c7"
+  },
+  "name": "Hospital C ",
+  "category": "Salud",
+  "address": "Piedras",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.384,
+      -34.6
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674c5b099d756630ffc119f6"
+  },
+  "name": "Farmacia prueba",
+  "category": "Comercio prueba",
+  "address": "Venezuela 1283",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.404737,
+      -34.6152097
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674c5c319d756630ffc119f7"
+  },
+  "name": "Hospital prueba",
+  "category": "Salud ",
+  "address": "Venezuela 1280",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -56.1898827,
+      -33.8930077
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674c941a2597e5045eb67c02"
+  },
+  "name": "Hospital prueba 12",
+  "category": "Salud ",
+  "address": "Venezuela 1255",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.404737,
+      -34.6152097
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674c946a2597e5045eb67c03"
+  },
+  "name": "Hospital prueba 13",
+  "category": "Salud ",
+  "address": "Venezuela 1260",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.404737,
+      -34.6152097
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+},
+{
+  "_id": {
+    "$oid": "674c9f65dd5e1122896cf64a"
+  },
+  "name": "Hospital C ",
+  "category": "Salud",
+  "address": "Piedras",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -56.384,
+      -31.609
+    ]
+  },
+  "_class": "com.portalInmobiliario.poi_service.models.documents.PointOfInterest"
+}]

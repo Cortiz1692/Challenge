@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba8"
+  },
+  "address": "Calle Secundaria 456",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1002",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3847,
+      -34.6155
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba1"
+  },
+  "address": "Avenida Principal 100",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1000",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3915,
+      -34.61
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba2"
+  },
+  "address": "Calle Norte 203",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1001",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3809,
+      -34.6159
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba3"
+  },
+  "address": "Calle Sur 303",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1003",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3969,
+      -34.6085
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba4"
+  },
+  "address": "Calle Terminal 506",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1004",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.393,
+      -34.6093
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba5"
+  },
+  "address": "Calle Metro 607",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1005",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3881,
+      -34.6163
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba6"
+  },
+  "address": "Avenida Mercado 708",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1006",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3947,
+      -34.6102
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4ba9"
+  },
+  "address": "Calle Jardín 1002",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1009",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3857,
+      -34.6176
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "674a93eb52324617c16f4baa"
+  },
+  "address": "Calle Salud 1203",
+  "city": "Buenos Aires",
+  "state": "CABA",
+  "postalCode": "1010",
+  "location": {
+    "type": "Point",
+    "coordinates": [
+      -58.3826,
+      -34.6164
+    ]
+  }
+}]

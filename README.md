@@ -58,3 +58,7 @@ La solución se basa en una **Arquitectura Orientada a Microservicios**, lo que 
    ```bash
    git clone <repositorio>
    cd <nombre-del-proyecto>
+   npm install
+docker-compose up -d
+docker exec -it mongo mongosh
+se portalInmobiliaria

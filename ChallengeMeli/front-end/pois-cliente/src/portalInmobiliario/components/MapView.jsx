@@ -16,7 +16,7 @@ const MapView = ({ property, pois }) => {
       />
       <Marker position={[property.location.coordinates[1], property.location.coordinates[0]]} icon={propertyIcon} key="property-marker">
         <Popup>
-          {property.address}
+          {property.name}
         </Popup>
       </Marker>
       {pois.map((poi, index) => (

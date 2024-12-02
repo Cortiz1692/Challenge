@@ -1,3 +1,4 @@
+/*
 package com.portalInmobiliario.poi_service.config;
 
 
@@ -43,3 +44,4 @@ public class CacheConfig {
         return new ReactiveRedisTemplate<>((ReactiveRedisConnectionFactory) redisConnectionFactory, context);
     }
 }
+*/

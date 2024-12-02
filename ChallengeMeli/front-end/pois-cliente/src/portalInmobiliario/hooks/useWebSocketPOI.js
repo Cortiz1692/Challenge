@@ -13,7 +13,7 @@ const useWebSocketPOI = (url, onMessage) => {
         console.error('Failed to parse WebSocket message:', error);
       }
     }
-  }, [,]);
+  }, [, ]);
 };
 
 export default useWebSocketPOI;

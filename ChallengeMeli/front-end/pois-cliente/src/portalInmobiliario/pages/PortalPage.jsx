@@ -27,7 +27,7 @@ const PortalContent = () => {
 
   useEffect(() => {
     getProperties();
-  }, [,]);
+  }, [getProperties]);
 
   if (!selectedProperty) {
     return <div>Cargando...</div>;

@@ -62,5 +62,5 @@ La solución se basa en una **Arquitectura Orientada a Microservicios**, lo que 
 - **docker-compose up -d
 - **docker exec -it mongo mongosh
 - **use portalInmobiliario
-- Desde ayi puede ejecutar los comandos necesarios para administrar su base de datos.
+- Desde alli puede ejecutar los comandos necesarios para administrar su base de datos.
 - Si prefiere puede utilizar los archivos .json en la carpeta data  para cargar las colecciones usadas en este proyecto

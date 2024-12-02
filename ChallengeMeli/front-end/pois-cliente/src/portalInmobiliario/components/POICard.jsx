@@ -33,7 +33,7 @@ const POICard = ({ pois, propertyLocation }) => {
       const time = calculateTime(distance);
       return (
         <li className="list-group-item" key={`${poi._id?.$oid ?? poi._id}-${index}`}>
-          <strong>{poi.address}</strong><br />
+          <strong>{poi.name}</strong><br />
           {time.toFixed(0)} mins - {distance.toFixed(0)} metros
         </li>
       );

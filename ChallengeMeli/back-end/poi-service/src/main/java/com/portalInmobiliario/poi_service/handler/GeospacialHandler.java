@@ -2,7 +2,7 @@ package com.portalInmobiliario.poi_service.handler;
 
 import com.portalInmobiliario.poi_service.models.documents.PointOfInterest;
 import com.portalInmobiliario.poi_service.models.documents.Property;
-//import com.portalInmobiliario.poi_service.models.services.CacheService;
+import com.portalInmobiliario.poi_service.models.services.CacheService;
 import com.portalInmobiliario.poi_service.models.services.GeospatialService;
 import com.portalInmobiliario.poi_service.validator.PointOfInterestValidator;
 import org.springframework.http.HttpStatus;
@@ -25,16 +25,17 @@ public class GeospacialHandler {
     private final GeospatialService geospatialService;
     private final PointOfInterestValidator pointOfInterestValidator;
     private final POIWebSocketHandler socketHandler;
-  /*  private final CacheService cacheService;*/
+    private final CacheService cacheService;
 
     public GeospacialHandler(GeospatialService geospatialService,
                              PointOfInterestValidator pointOfInterestValidator,
-                             POIWebSocketHandler socketHandler
+                             POIWebSocketHandler socketHandler,
+                             CacheService cacheService
                              ) {
         this.geospatialService = geospatialService;
         this.pointOfInterestValidator = pointOfInterestValidator;
         this.socketHandler = socketHandler;
-      /*  this.cacheService = cacheService;*/
+        this.cacheService = cacheService;
     }
 
     public Mono<ServerResponse> findPoisNearProperty(ServerRequest request) {
@@ -58,7 +59,7 @@ public class GeospacialHandler {
                     .body(BodyInserters.fromValue(Map.of("error", "Las coordenadas proporcionadas son inválidas")));
         }
 
-    /*    return cacheService.getFromCache(cacheKey)
+        return cacheService.getFromCache(cacheKey)
                 .flatMap(cachedPois -> ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyValue(cachedPois))
                 .switchIfEmpty(
                         geospatialService.findPoisNearProperty(latitude, longitude, radius)
@@ -66,9 +67,7 @@ public class GeospacialHandler {
                                 .flatMap(pois -> cacheService.saveToCache(cacheKey, pois)
                                         .then(ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).bodyValue(pois))
                                 )
-                );*/
-        Flux<PointOfInterest> pois = geospatialService.findPoisNearProperty(latitude, longitude, radius);
-        return ServerResponse.ok().contentType(MediaType.APPLICATION_JSON).body(pois, PointOfInterest.class);
+                );
     }
 
     public Mono<ServerResponse> listPointsOfInterest(ServerRequest request) {

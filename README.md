@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 GeoLocation and Redis with MongoDB
 This project implements a geolocation system using MongoDB to store points of interest and properties, and Redis to optimize geospatial queries. The application allows you to find points of interest near a specific property.
 

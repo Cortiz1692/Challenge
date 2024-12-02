@@ -15,7 +15,6 @@ public class PointOfInterestValidator implements Validator {
     public void validate(Object target, Errors errors) {
         PointOfInterest poi = (PointOfInterest) target;
 
-        // Validar que el nombre, categoría y dirección no estén vacíos
         if (poi.getName() == null || poi.getName().trim().isEmpty()) {
             errors.rejectValue("name", "El nombre es obligatorio");
         }
@@ -26,7 +25,6 @@ public class PointOfInterestValidator implements Validator {
             errors.rejectValue("address", "La dirección es obligatoria");
         }
 
-        // Validar que location no sea nulo
         if (poi.getLocation() == null) {
             errors.rejectValue("location", "La ubicación es obligatoria");
             return;
@@ -37,14 +35,12 @@ public class PointOfInterestValidator implements Validator {
             errors.rejectValue("location.coordinates", "field.invalid", "Las coordenadas no pueden ser (0.0, 0.0)");
         }
 
-        // Validar que location tenga coordenadas válidas
         if (!"Point".equalsIgnoreCase(poi.getLocation().getType())) {
             errors.rejectValue("location.type", "El tipo debe ser 'Point'");
         }
         if (poi.getLocation().getCoordinates() == null || poi.getLocation().getCoordinates().size() != 2) {
             errors.rejectValue("location.coordinates", "Debe proporcionar exactamente dos coordenadas");
         } else {
-            // Validar valores de las coordenadas
             double x = poi.getLocation().getCoordinates().get(0);
             double y = poi.getLocation().getCoordinates().get(1);
             if (x < -180 || x > 180) {

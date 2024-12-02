@@ -1,4 +1,3 @@
-/*
 package com.portalInmobiliario.poi_service.models.services;
 
 
@@ -11,8 +10,8 @@ import reactor.core.publisher.Mono;
 public class CacheService {
 
     @Autowired
-    private ReactiveRedisTemplate<String, Object> reactiveRedisTemplate;*/
-/**//*
+    private ReactiveRedisTemplate<String, Object> reactiveRedisTemplate;
+
 
 
     public Mono<Object> getFromCache(String key) {
@@ -27,4 +26,4 @@ public class CacheService {
         return reactiveRedisTemplate.opsForValue().delete(key);
     }
 }
-*/
+

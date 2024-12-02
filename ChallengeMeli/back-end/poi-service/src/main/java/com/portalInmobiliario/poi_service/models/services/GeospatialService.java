@@ -4,7 +4,6 @@ import com.portalInmobiliario.poi_service.models.dao.PropertyRepository;
 import com.portalInmobiliario.poi_service.models.documents.PointOfInterest;
 import com.portalInmobiliario.poi_service.models.dao.PointOfInterestRepository;
 import com.portalInmobiliario.poi_service.models.documents.Property;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

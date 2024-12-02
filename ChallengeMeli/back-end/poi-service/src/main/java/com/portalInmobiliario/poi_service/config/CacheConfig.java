@@ -1,6 +1,4 @@
-/*
 package com.portalInmobiliario.poi_service.config;
-
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;
@@ -44,4 +42,4 @@ public class CacheConfig {
         return new ReactiveRedisTemplate<>((ReactiveRedisConnectionFactory) redisConnectionFactory, context);
     }
 }
-*/
+

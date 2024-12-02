@@ -33,7 +33,6 @@ La solución se basa en una **Arquitectura Orientada a Microservicios**, lo que 
    - Administra la experiencia del usuario, las vistas y las solicitudes hacia los servicios backend.
 
 2. **Microservicios**  
-   - **Microservicio de Propiedades**: Maneja la lógica relacionada con las propiedades.  
    - **Microservicio de POIs**: Administra la información de los puntos de interés.
 
 3. **Base de Datos (MongoDB)**  

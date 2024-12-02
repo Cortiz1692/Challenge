@@ -56,11 +56,13 @@ La solución se basa en una **Arquitectura Orientada a Microservicios**, lo que 
 
 1. Clona el repositorio y organiza los archivos:  
    ```bash
-   git clone <repositorio>
-   cd <nombre-del-proyecto>
+   git clone https://github.com/Cortiz1692/Challenge.git
    npm install
+   compilar pois cliente : npm run build 
+   con los proyectos pois-cliente , pois-service , y docker-compose.yaml
+   ejecute:
 - **docker-compose up -d
 - **docker exec -it mongo mongosh
 - **use portalInmobiliario
 - Desde alli puede ejecutar los comandos necesarios para administrar su base de datos.
-- Si prefiere puede utilizar los archivos .json en la carpeta data  para cargar las colecciones usadas en este proyecto
+- Si prefiere, puede utilizar los archivos .json en la carpeta data  para cargar las colecciones usadas en este proyecto

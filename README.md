@@ -59,6 +59,8 @@ La solución se basa en una **Arquitectura Orientada a Microservicios**, lo que 
    git clone <repositorio>
    cd <nombre-del-proyecto>
    npm install
-docker-compose up -d
-docker exec -it mongo mongosh
-se portalInmobiliaria
+- **docker-compose up -d
+- **docker exec -it mongo mongosh
+- **use portalInmobiliario
+- Desde ayi puede ejecutar los comandos necesarios para administrar su base de datos.
+- Si prefiere puede utilizar los archivos .json en la carpeta data  para cargar las colecciones usadas en este proyecto

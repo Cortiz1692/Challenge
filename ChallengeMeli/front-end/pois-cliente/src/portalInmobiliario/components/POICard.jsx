@@ -4,7 +4,7 @@ import { calculateTime } from '../helper/calculateTime';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const POICard = ({ pois, propertyLocation }) => {
-  // Organizar POIs en subcategorías
+
   const categories = pois.reduce((acc, poi) => {
     const subCategory = poi.subCategory || 'Otros';
     if (!acc[poi.category]) {

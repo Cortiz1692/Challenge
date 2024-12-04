@@ -62,7 +62,6 @@ export const usePOIForm = () => {
     try {
       const response = await createNewPois(poiData);
       console.log('POI creado:', response);
-      // Resetear el formulario
       setFormData(initialState);
     } catch (error) {
       console.error('Error al crear POI:', error);

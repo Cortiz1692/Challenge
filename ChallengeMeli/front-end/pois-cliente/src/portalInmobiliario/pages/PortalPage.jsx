@@ -18,7 +18,7 @@ const PortalContent = () => {
     dispatch({ type: 'ADD_POI', payload: newPoi });
   };
 
-  // Usar el hook personalizado para manejar WebSocket
+
   useWebSocketPOI('ws://localhost:8080/ws/pois', (message) => {
     if (message.poiId) {
       updatePois(message);

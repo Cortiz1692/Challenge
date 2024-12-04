@@ -17,7 +17,7 @@ export const findAllProperties = async () => {
 
 export const getPoisNearProperty = async (latitude, longitude) => {
   try {
-    // Asegúrate de que los parámetros se pasan correctamente
+   
     const response = await poisApi.get(`${BASE_URL_POIS}?latitude=${latitude}&longitude=${longitude}`);
     return response.data;
   } catch (error) {
